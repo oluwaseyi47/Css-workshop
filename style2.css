@@ -1,0 +1,141 @@
+.navmenu img{
+    width: 60px;
+    margin-left: 60px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 30%;
+    align-items: center;
+    margin-right: 66px;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #484551;
+}
+
+.nav-links a:hover{
+    color: #4fa3bd;
+    text-decoration: underline;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background:  rgba(255, 255, 255, 0.9);
+}
+
+.dropbtn{
+    border: none;
+    font-size: 16px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:#f9f9f9 ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    color: #4fa3db;
+    text-decoration: underline;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.css-span{
+    color: #4fa3db;
+    font-weight: bold;
+}
+
+.watchVideo-btn{
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-top: 12px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.watchVideo-btn:hover{
+    background-color: #4fa3bd;
+    color: white;
+}
+
+.project h3{
+    text-align: center;
+}
+
+.project p{
+    line-height: 35px;
+}
+
+.project a{
+    color: #484551;
+}
+
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.project img{
+    font-size: 16px;
+    border: none;
+}
+
+footer{
+    background-color:  #e8e8e6;
+    margin-top: 15px;
+    height: 70px;
+}
+.footer-message{
+  
+  
+}
+
+footer div{
+    text-align: center;
+    /* padding: 20px; */
+    color: #363945;
+}
+
+.footer-message span{
+    color: #5b6b7f;
+    font-weight: bold;
+}
